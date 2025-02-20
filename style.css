@@ -6,13 +6,15 @@ html, body {
     padding: 0;
     text-align: center;
     height: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Align content to the top */
+    min-height: 100vh; /* Ensure full height */
+    padding-top: 20px; /* Add some spacing from the top */
 }
 
 a {
@@ -30,6 +32,7 @@ a:hover {
     background: #073642;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
 }
 
 img {

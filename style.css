@@ -6,23 +6,18 @@ html, body {
     padding: 0;
     text-align: center;
     height: 100%;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Align content to the top */
-    min-height: 100vh; /* Ensure full height */
     padding-top: 20px; /* Add some spacing from the top */
 }
 
 a {
     color: #268bd2;
     text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
 }
 
 .container {

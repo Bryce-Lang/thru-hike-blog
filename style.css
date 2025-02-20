@@ -6,6 +6,9 @@ body {
     padding: 20px;
     text-align: center;
 }
+html {
+    background-color: #002b36;
+}
 a {
     color: #268bd2;
     text-decoration: none;

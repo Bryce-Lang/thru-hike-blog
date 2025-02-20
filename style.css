@@ -1,18 +1,10 @@
-html, body {
-    font-family: Arial, sans-serif;
-    background-color: #002b36;
-    color: #839496;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    height: 100%;
-}
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Align content to the top */
-    padding-top: 20px; /* Add some spacing from the top */
+    background-color: #fdf6e3;
+    color: #657b83;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
 a {
@@ -20,18 +12,13 @@ a {
     text-decoration: none;
 }
 
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: #073642;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position: relative;
+a:hover {
+    text-decoration: underline;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
 }

@@ -17,7 +17,7 @@ a:hover {
 }
 
 img {
-    max-width: 42%;
+    width: 42%;
     height: auto;
     display: block;
     margin: 10px auto;

@@ -23,3 +23,9 @@ img {
     display: block;
     margin: 10px auto;
 }
+
+.no-bullets {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
